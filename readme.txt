@@ -1,5 +1,3 @@
-git is good\n
-git is free\n
-git is free\n
-git is free\n
-git is free\n
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
+Git has a mutable index called stage.
