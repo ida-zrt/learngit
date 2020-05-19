@@ -16,4 +16,6 @@ git branch -d dev
 # 列出所有分支
 git branch
 
+# 转到新的分支（不能是已有的分支）
+git switch -c dev2
 
