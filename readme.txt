@@ -19,7 +19,11 @@ git reset --hard
 git status
 
 # 在add file之前恢复文档
+# 实则为使用版本库中的文件恢复至工作目录
 git checkout -- <file>
 # or
 git restore <file>
+
+ # remove file 从版本库中移除文件
+git rm <file>
 
