@@ -16,4 +16,6 @@ git branch -d dev
 # 列出所有分支
 git branch
 
+# 普通方式合并（--no-ff）
+git merge --no-ff -m "merge with no ff" dev
 
