@@ -7,6 +7,7 @@ git checkout dev
 # switch to a branch
 # 转到对应分支
 git checkout branch_Name
+git switch branch_Name
 
 # delete a branch
 # 删除分支
@@ -16,4 +17,6 @@ git branch -d dev
 # 列出所有分支
 git branch
 
-asdflllg
+# 转到新的分支（不能是已有的分支）
+git switch -c dev2
+
