@@ -27,3 +27,13 @@ git restore <file>
  # remove file 从版本库中移除文件
 git rm <file>
 
+
+# 关联远程库，使用命令
+git remote add origin git@server-name:path/repo-name.git
+
+# 首次推送所有内容，采用
+git push -u origin master
+
+# 之后的提交，采用
+git push origin master
+
