@@ -17,3 +17,9 @@ git reset --hard
 
 # 查看当前工作区，缓存库，分支的状态
 git status
+
+# 在add file之前恢复文档
+git checkout -- <file>
+# or
+git restore <file>
+
