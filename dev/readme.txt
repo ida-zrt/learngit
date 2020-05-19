@@ -20,3 +20,5 @@ git branch
 # 转到新的分支（不能是已有的分支）
 git switch -c dev2
 
+# 普通方式合并（--no-ff）
+git merge --no-ff -m "merge with no ff" dev
