@@ -7,6 +7,7 @@ git checkout dev
 # switch to a branch
 # 转到对应分支
 git checkout branch_Name
+git switch branch_Name
 
 # delete a branch
 # 删除分支
